@@ -19,6 +19,7 @@ html {
 body {
     margin: 0;
     width: 100%;
+	background: #FFF9EB;
 }
 
 
@@ -536,7 +537,20 @@ h3 a{
 
 
 /* desktop work */
+.red-section{
+	background-color: #D42027;
+	color: #FFF9EB;
+	padding-top: 24px;
+	padding-bottom: 24px;
+}
 
+.red-section h2{
+	color: #FFF9EB;
+}
+
+.red-section h3{
+	color: #FFF9EB;
+}
 
 
 
