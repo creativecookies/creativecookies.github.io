@@ -95,15 +95,18 @@ header {
 	box-sizing: border-box;
 }
 
-.contact-bar h2{
-	color: #FFF9EB;
+.contact-bar button{
+	float: right;
+	text-align: right;
 }
 
 .contact-bar-content{
-	max-width: 500px;
-	display: flex;
-	justify-content: space-between;
+	padding: 12px 48px 12px;
+
 }
+
+.contact-bar h2{
+	color: #FFF9EB;
 }
 
 .beige{
@@ -865,8 +868,6 @@ video {
 }
 
 
-}
-
 #prev {
 	left: 0;
 }
@@ -1051,3 +1052,30 @@ video {
 	margin-top: 24px;
 	margin-bottom: 24px;
 }
+ .facts{
+	 float:right;
+	 text-align: right;
+ }
+
+ footer{
+	margin-bottom: 100px;
+  }
+
+  button{
+	background: #D42027;
+	border-radius: 102px;
+	border: none;
+	color: #FFF9EB;
+	padding: 8px 48px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	text-transform: uppercase;
+  }
+
+  .btn-beige{
+	color: #D42027;
+	background: #FFF9EB;
+
+  }
