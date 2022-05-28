@@ -1074,6 +1074,24 @@ video {
 	text-transform: uppercase;
   }
 
+  .btn-red{
+	background: #D42027;
+	border-radius: 102px;
+	border: none;
+	color: #FFF9EB;
+	padding: 8px 48px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	text-transform: uppercase;
+	max-width: 300px;
+	margin: 0 auto;
+  }
+
+  .g-recaptcha{
+	margin: 0 auto;
+  }
+
   .btn-beige{
 	color: #D42027;
 	background: #FFF9EB;

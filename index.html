@@ -7,6 +7,10 @@
 	<meta name="handheldfriendly" content="true">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Creative Cookies · We tell stories & build websites for brands · Ottawa, Canada</title>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+    async defer>
+</script>
     <link href="css/grid.css" rel="stylesheet">
     <link href="css/typography.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
@@ -227,8 +231,9 @@
             </label>
             <input type="password"required autocomplete="off"/>
           </div>
-          
-          <button type="submit" class="button button-block"/>Send</button>
+      <div class="g-recaptcha" data-sitekey="6Lce4CcgAAAAAPVsITKDvenZynwZLFQharpUixQP"></div>
+      <br/>
+      <input type="submit" value="Submit" class="btn-red">
           
           </form>
 </div>
@@ -273,3 +278,9 @@
 
 
 </html>
+
+<script type="text/javascript">
+  var onloadCallback = function() {
+    alert("grecaptcha is ready!");
+  };
+</script>
